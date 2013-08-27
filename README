@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OS X SAT SMART Driver
 #####################
 
@@ -93,3 +94,5 @@ I created a fork (https://github.com/RJVB/OS-X-SAT-SMART-Driver) that works with
 - use NULL instead of 0 or 0L when pointers/addresses are concerned
 - accept CHECK_CONDITION request status when reading SMART data. My guess is that this is comparable to the smartmontools' "-T permissive" option.
 what about PASS_THROUGH_16()? The function is defined but unused; is it a 'drop-in' replacement for PASS_THROUGH_12() and if so, could one issue the 16 variant after the 12 variant failed in hope of supporting more enclosures?
+=======
+>>>>>>> parent of 19433a5... First draft
