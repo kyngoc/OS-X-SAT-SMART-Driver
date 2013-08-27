@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>org.dungeon.driver.SATSMARTDriver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>SATSMARTDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Permissive</key>
+			<true/>
+			<key>UsePassThrough16</key>
+			<false/>
+		</dict>
+		<key>SATSMARTDriver_WD_MyBook</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Product Identification</key>
+			<string>My Book</string>
+			<key>Vendor Identification</key>
+			<string>WD</string>
+			<key>Permissive</key>
+			<false/>
+			<key>UsePassThrough16</key>
+			<false/>
+		</dict>
+		<key>SATSMARTDriver_Generic_External</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Product Identification</key>
+			<string>External</string>
+			<key>Vendor Identification</key>
+			<string>Generic</string>
+			<key>Permissive</key>
+			<true/>
+			<key>UsePassThrough16</key>
+			<false/>
+		</dict>
+		<key>SATSMARTDriver_Generic_StorageDevice</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Product Identification</key>
+			<string>Storage Device</string>
+			<key>Vendor Identification</key>
+			<string>Generic</string>
+			<key>Permissive</key>
+			<false/>
+			<key>UsePassThrough16</key>
+			<false/>
+		</dict>
+		<key>SATSMARTDriver_ExtHard__Disk</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Product Identification</key>
+			<string> Disk</string>
+			<key>Vendor Identification</key>
+			<string>Ext Hard</string>
+			<key>Permissive</key>
+			<false/>
+			<key>UsePassThrough16</key>
+			<false/>
+		</dict>
+		<key>SATSMARTDriver_Kingston_DataTraveler20</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.dungeon.driver.SATSMARTDriver</string>
+			<key>IOClass</key>
+			<string>org_dungeon_driver_IOSATDriver</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOProbeScore</key>
+			<integer>-15000</integer>
+			<key>IOProviderClass</key>
+			<string>IOSCSIPeripheralDeviceNub</string>
+			<key>Peripheral Device Type</key>
+			<integer>0</integer>
+			<key>Product Identification</key>
+			<string>DataTraveler 2.0</string>
+			<key>Vendor Identification</key>
+			<string>Kingston</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOSCSIArchitectureModelFamily</key>
+		<string>2.6.8</string>
+		<key>com.apple.iokit.IOSCSIBlockCommandsDevice</key>
+		<string>2.6.8</string>
+		<key>com.apple.iokit.IOStorageFamily</key>
+		<string>1.6.3</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.8</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.8</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>
